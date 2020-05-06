@@ -1,0 +1,16 @@
+Red: Header
+Green: div.logo > a > img
+Pink: nav > ul
+Blue: li > a
+
+yellow: section.hero
+blue foncé: div.content
+blue-hello i'm: span
+brown: h1
+orange: p
+banafssaji barad: ul 
+green2: li > i + span
+rose : ul
+yellow: li > a > i
+mouve: div.avatar
+partie avec image: img
