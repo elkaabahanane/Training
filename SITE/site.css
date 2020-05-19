@@ -2,64 +2,79 @@
     padding: 0;
     margin: 0;
 }
-.logo img {
-    width: 90px;
-    margin-left: 20px;
+.container1 {
+    height: 100vh;
+    background-color: #101010;
 }
-
-header {
+.box {
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    height: 70px;
     align-items: center;
+}
+.logo img {
+    width: 90px;
 }
 
 .list {
     display: flex;
     justify-content: space-between;
-    font-family: roboto;
-    font-weight: 600;
     font-size: 16px;
 }
-
+.line {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 6px;
+}
 .list li {
-    padding: 6px 26px;
+    padding-left: 45px;
     list-style: none;
 }
 
 .list li a {
     color: white;
     text-decoration: none;
+    font-weight: 900;
+    font-family: roboto;
 }
 
 section {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
     color: white;
     font-family: roboto;
-    height: 400px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .part1 {
-    margin-top: 120px;
-    margin-left: 20px;
+    margin-top: 160px;
+}
+.part1-sp {
+    font-size: 11px;
+    font-weight: bold;
+    background-color: green;
+    padding: 10px 26px;
+    border-radius: 80px 80px 80px 8px;
 }
 
 .part1 h1 {
     font-size: 50px;
-    font-weight: bold;
-    margin: 15px 0px;
+    font-weight: bolder;
+    margin-top: 30px;
 }
 .part1 p {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 26px;
 }
 
 .part2 li {
-    margin-bottom: 10px;
+    line-height: 27px;
     list-style: none;
     font-weight: bold;
     font-size: 12px;
@@ -67,21 +82,30 @@ section {
 
 .part2 li i {
     padding-right: 6px;
+    font-size: 13px;
+}
+.part2 li span {
+    color: gainsboro;
+    font-size: 13px;
 }
 .part3 {
     display: flex;
     list-style: none;
+    margin-top: 35px;
 }
 
 .part3 li a {
     text-decoration: none;
-    color: white;
+    color: gainsboro;
     padding-right: 20px;
+    padding-left: 17px;
 }
 .avatar {
     border-radius: 50%;
     width: 250px;
     height: 250px;
-    margin-right: 80px;
-    margin-top: 70px;
+    align-items: center;
+    margin-top: 100px;
+    border: 17px solid black;
+    padding: 20px;
 }
